@@ -1,0 +1,5 @@
+﻿  ex1_1.cpp
+d:\study\pointer\ch1\ex1_1\ex1_1.cpp(4): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+d:\study\pointer\ch1\ex1_1\ex1_1.cpp(12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+d:\study\pointer\ch1\ex1_1\ex1_1.cpp(12): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+  ex1_1.vcxproj -> D:\study\Pointer\Ch1\ex1_1\Debug\ex1_1.exe
