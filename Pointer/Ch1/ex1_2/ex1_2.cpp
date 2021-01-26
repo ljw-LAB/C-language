@@ -19,5 +19,4 @@ void main()
 	printf("%d \n", &n1+1);
 	printf("%d \n", &n2+1);
 
-	
 }
