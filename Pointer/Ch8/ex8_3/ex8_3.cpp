@@ -67,12 +67,50 @@
 // 	func(iarr);
 // }
 
-void func(const char *s)
+// void func(const char *s)
+// {
+// 	puts(s);
+// }
+
+// void main()
+// {
+// 	func("ABCD");
+// }
+
+// void func(const char *s)
+// {
+// 	puts(s);
+// }
+
+// void main()
+// {
+// 	const char *str ="abcd";
+// 	func(str);
+// }
+
+// void func(int *np)
+// {
+// 	*np = 20;
+// }
+
+// void main()
+// {
+// 	int n = 10;
+// 	printf("%d \n", n);
+// 	func(&n);
+// 	printf("%d \n", n);
+// }
+
+void func(int n1, int n2, int *psum)
 {
-	puts(s);
+	*psum = n1 + n2;
 }
 
 void main()
 {
-	func("ABCD");
+	int sum;
+	int a = 10, b =20;
+
+	func(a, b, &sum);
+	printf("%d \n", sum);
 }
